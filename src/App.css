@@ -1,0 +1,38 @@
+.list{
+  display: flex;
+  justify-content: space-between;
+  width:500px;
+  list-style: none;
+ border-bottom: 3px solid blue;
+ padding: 0;
+
+}
+.titre{
+  position:relative;
+}
+.titre:hover{
+  color:blue
+}
+
+.dropdown{
+  color: black;
+  display:none;
+  position: absolute;
+  list-style: none;
+  width: 150px;
+  border:solid yellow;
+}
+.titre:hover .dropdown{
+  display:flex;
+  flex-direction: column;
+}
+.App{
+  text-align: center;
+  
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  font-size: 18px;
+
+}
